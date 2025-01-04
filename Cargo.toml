@@ -13,3 +13,9 @@ readme = "README.md"
 keywords = ["cli", "command", "command-line", "tool", "tmux"]
 
 [dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.23", features = ["derive"] }
+serde = { version = "1.0.217", features = ["derive"] }
+toml = "0.8.19"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
