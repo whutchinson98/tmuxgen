@@ -1,0 +1,15 @@
+[package]
+name = "tmuxgen"
+description = "CLI that allows you to create predefined tmux sessions for your various projects."
+version = "0.0.0"
+edition = "2021"
+authors = ["whutchinson98"]
+include = ["src/**/*.rs"]
+categories = ["command-line-utilities"]
+homepage = "https://github.com/whutchinson98/tmuxgen"
+repository = "https://github.com/whutchinson98/tmuxgen"
+license = "MIT"
+readme = "README.md"
+keywords = ["cli", "command", "command-line", "tool", "tmux"]
+
+[dependencies]
